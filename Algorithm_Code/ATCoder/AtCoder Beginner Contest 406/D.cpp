@@ -26,7 +26,7 @@ void solve()
         r[x]++;
         c[y]++;
         row[x].push_back(y);
-        col[y].push_back(x);
+        col[y].push_back(x); // 修正：之前错误地写成row[y].push_back(x)
     }
     
     int q;
@@ -36,7 +36,7 @@ void solve()
         int a, b;
         cin >> a >> b;
         
-        if(a == 1) {
+        if(a == 1) { // 查询行
             if(cleared_row[b]) {
                 cout << 0 << endl;
                 continue;
@@ -44,6 +44,7 @@ void solve()
             
             cout << r[b] << endl;
             
+            // 清空该行的所有垃圾
             for(int y : row[b]) {
                 if(!cleared_col[y]) {
                     c[y]--;
