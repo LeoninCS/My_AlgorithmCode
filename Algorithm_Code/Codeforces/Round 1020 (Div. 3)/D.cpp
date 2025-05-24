@@ -2,8 +2,8 @@
 using namespace std;
 using i64 = long long;
 
-const int inf = 1e9;
-const i64 INF = 1e18;
+const int inf = 1e9 + 7;
+const i64 INF = 1e18 + 7;
 
 void solve()
 {
@@ -35,8 +35,8 @@ void solve()
 	}
 	int ans = inf;
 	for(int i = 0; i <= n; i++) {
-		if(pre[i] + aft[i + 1] == m - 1) ans = min(ans,b[pre[i]]);
-		if(pre[i] + aft[i + 1] == m) ans = 0;
+		if(pre[i] + aft[i + 1] >= m - 1) ans = min(ans,b[pre[i]]);
+		if(pre[i] + aft[i + 1] >= m) ans = 0;
 	}
 	if(ans == inf) cout << -1 << endl;
 	else cout << ans << endl;

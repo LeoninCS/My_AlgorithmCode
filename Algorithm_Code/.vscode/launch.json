@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Users/23299/Desktop/File/repositories/My_AlgorithmCode/Algorithm_Code/ATCoder/AtCoder Beginner Contest 404",
-      "program": "d:/Users/23299/Desktop/File/repositories/My_AlgorithmCode/Algorithm_Code/ATCoder/AtCoder Beginner Contest 404/build/Debug/outDebug",
+      "cwd": "d:/Users/23299/Desktop/File/repositories/My_AlgorithmCode/Algorithm_Code",
+      "program": "d:/Users/23299/Desktop/File/repositories/My_AlgorithmCode/Algorithm_Code/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
