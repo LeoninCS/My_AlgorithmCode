@@ -2,11 +2,14 @@
 using namespace std;
 using i64 = long long;
 
-const i64 mod = 1e9;
+const int inf = 1e9;
+const i64 INF = 1e18;
 
 void solve()
 {
-	
+	int n, m, k;
+    cin >> n >> m >> k;
+
 }
 
 int main()
@@ -15,8 +18,10 @@ int main()
 	cin.tie(0); cout.tie(0);
 	
 	int T = 1;
-	//cin >> T;
+	cin >> T;
 	while(T--) solve();
 	
 	return 0;
 }
+//先求出不可以到达的点
+//终点无法到达的点即不可到达的点

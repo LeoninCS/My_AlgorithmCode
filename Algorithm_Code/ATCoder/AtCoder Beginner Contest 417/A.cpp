@@ -2,11 +2,18 @@
 using namespace std;
 using i64 = long long;
 
-const i64 mod = 1e9;
+const int inf = 1e9;
+const i64 INF = 1e18;
 
 void solve()
 {
-	
+	int n, a, b;
+    cin >> n >> a >> b;
+    string s;
+    cin >> s;
+    for(int i = a; i < n - b; i++) {
+        cout << s[i];
+    }
 }
 
 int main()
