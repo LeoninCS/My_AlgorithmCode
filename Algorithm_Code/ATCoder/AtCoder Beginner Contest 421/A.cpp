@@ -1,9 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 using i64 = long long;
-using PII = pair<int,int>;
-using PLL = pair<i64,i64>;
 
+const i64 mod = 1e9;
 
 void solve()
 {

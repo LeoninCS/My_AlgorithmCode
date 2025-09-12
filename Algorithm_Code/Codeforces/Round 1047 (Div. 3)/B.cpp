@@ -7,7 +7,14 @@ using PLL = pair<i64,i64>;
 
 void solve()
 {
-	
+	int n;
+    cin >> n;
+    for(int i = 0; i < n; i++) {
+        int p;
+        cin >> p;
+        cout << (n - p + 1) << " ";
+    }
+    cout << "\n";
 }
 
 int main()
@@ -16,7 +23,7 @@ int main()
 	cin.tie(0); cout.tie(0);
 	
 	int T = 1;
-	//cin >> T;
+	cin >> T;
 	while(T--) solve();
 	
 	return 0;
