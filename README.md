@@ -1,14 +1,22 @@
 # My_AlgorithmCode
 记录我所写过的算法代码。    
-Leetcode:
-    用户名:LeoninCS
-    解题数:473道  
-Codeforces:
-    用户名:LeoninCS
-    解题数:219道  
-ATCoder:
-    用户名:LeoninCS
-    解题数:69道  
-牛客:
-    用户名:LeoninCS
-    解题数:177道  
+- Leetcode:  
+    - 用户名:LeoninCS  
+    - 解题数:473道
+    - maxrating:2037
+    - currentrating:1988  
+- Codeforces:  
+    - 用户名:LeoninCS
+    - 解题数:219道  
+    - maxrating:1658
+    - currentrating:1658  
+- ATCoder:
+    - 用户名:LeoninCS
+    - 解题数:69道 
+     - maxrating:770
+     - currentrating:748  
+- 牛客:
+    - 用户名:LeoninCS
+    - 解题数:177道  
+    - maxrating:1485
+    - currentrating:1553  
