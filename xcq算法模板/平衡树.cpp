@@ -3,7 +3,7 @@
 using namespace std;
 using namespace __gnu_pbds;
 using i64 = long long;
-using pll = pair<i64,int>;
+using pll = pair<i64,i64>;
 using ordered_set = tree<pll,null_type,less<pll>,rb_tree_tag,tree_order_statistics_node_update>;
 const int inf = 1e9;
 const i64 INF = 1e18;

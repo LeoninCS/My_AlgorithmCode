@@ -127,7 +127,21 @@
     "thread": "cpp",
     "typeindex": "cpp",
     "typeinfo": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "cassert": "cpp",
+    "cerrno": "cpp",
+    "cfloat": "cpp",
+    "climits": "cpp",
+    "ccomplex": "cpp",
+    "ciso646": "cpp",
+    "cstdalign": "cpp",
+    "cstdbool": "cpp",
+    "ctgmath": "cpp",
+    "filesystem": "cpp",
+    "ios": "cpp",
+    "locale": "cpp",
+    "queue": "cpp",
+    "stack": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }

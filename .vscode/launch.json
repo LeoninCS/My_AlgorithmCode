@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Users/23299/Desktop/File/repositories/My_AlgorithmCode/Algorithm_Code/力扣",
-      "program": "d:/Users/23299/Desktop/File/repositories/My_AlgorithmCode/Algorithm_Code/力扣/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
